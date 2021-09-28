@@ -5,45 +5,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Primera Página WEB Tipo Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
-    <!--Contenedor principal-->
+    <!-- Contenedor principal -->
     <div>
         <!--Sección superior-->
-            <!--Sección encabezado-->
-            <header> 
+        <!--Sección encabezado-->
+        <header class="navbar"> 
+            <nav class="container">
                 <!--Sección izquierda-->
-                <section>
-                <a href="https://startbootstrap.github.io/startbootstrap-modern-business/index.html" Start Bootstrap>
-                    Start Bootstrap
+                <a class="navbar-link" href="https://startbootstrap.github.io/startbootstrap-modern-business/index.html" Start Bootstrap>
+                    Start Bootstrap 
                 </a>
                 <!--Sección derecha-->
                 <section>
                 <!--Menú de Navegación-->
                 <nav>
-                    <ul>
-                        <li>
-                            <a href="" Home> <!--Enlace a página principal-->
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="" Home> <!--Enlace a página principal-->
                                 Home
                             </a>
                         </li>
-                        <li>
-                            <a href="about.html" About> <!--Enlace a página about-->
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="about.html" About> <!--Enlace a página about-->
                                 About
                             </a>
                         </li>
-                        <li>
-                            <a href="contact.html" Contact> <!--Enlace a página Contact-->
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="contact.html" Contact> <!--Enlace a página Contact-->
                                 Contact
                             </a>
                         </li>
-                        <li>
-                            <a href="pricing.html" Pricing> <!--Enlace a página Pricing-->
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="pricing.html" Pricing> <!--Enlace a página Pricing-->
                                 Pricing
                             </a>
                         </li>
-                        <li>
-                            <a href="faq.html" FAQ> <!--Enlace a página FAQ-->
+                        <li class="navbar-item">
+                            <a class="navbar-link" href="faq.html" FAQ> <!--Enlace a página FAQ-->
                                 FAQ
                             </a>
                         </li>
@@ -51,223 +53,233 @@
                         <nav>
                             Blog
                             <ul>
-                                <li>
-                                    <a href="" Blog Home> <!--Enlace a página Blog Home-->
+                                <li class="navbar-item">
+                                    <a class="navbar-link" href="" Blog Home> <!--Enlace a página Blog Home-->
                                         Blog Home
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="post.html" Blog Post> <!--Enlace a página Blog Post-->     
+                                <li class="navbar-item">
+                                    <a class="navbar-link" href="post.html" Blog Post> <!--Enlace a página Blog Post-->     
                                         Blog Post
                                     </a>
                                 </li>
                             </ul>
                         </nav>
-  <!--Menú de Navegación-->
+                        <!--Menú de Navegación-->
                         <nav>
                             Portfolio
                             <ul>
-                                <li>
-                                    <a href="port_over.html" Portfolio Overview> <!--Enlace a página Portfolio Overview-->
+                                <li class="navbar-item">
+                                    <a class="navbar-link" href="port_over.html" Portfolio Overview> <!--Enlace a página Portfolio Overview-->
                                         Portfolio Overview
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="port_item.html" Portfolio Item> <!--Enlace a página Portfolio Item-->    
+                                <li class="navbar-item">
+                                    <a class="navbar-link" href="port_item.html" Portfolio Item> <!--Enlace a página Portfolio Item-->    
                                         Portfolio Item 
                                     </a>
                                 </li>
                             </ul>
                         </nav>
                     </ul>
-                </nav>
+                </nav>            
                 </section>
-                </section>
-            </header>
-            <!--Sección main-->
-            <main>
-                <!--Sección superior-->
+            </nav>
+        </header>
+        <!--Sección main-->
+        <main>
+            <div class="container">
+            <!--Sección superior-->
+            <section>
+            <h2>Company Blog</h2>          
+                <!--Sección izquierda-->
                 <section>
-                <h2>Company Blog</h2>          
-                    <!--Sección izquierda-->
-                    <section>
-                        <aside>
-                            <a href="https://startbootstrap.github.io/startbootstrap-modern-business/blog-home.html#!" News>
-                                News <br>
-                            </a>
-                            <a href="article.html" Article heading goes here> <!--Enlace a página Article--> 
-                                Article heading goes here <br>
-                            </a>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed libero architecto quia magni ea voluptas aspernatur! Expedita delectus ducimus explicabo ipsum necessitatibus, voluptas natus pariatur dolorum iste id maiores nesciunt!
-                            </p>
-                            <a href="read_more.html" Read more> <!--Enlace a página Article--> 
-                                Read more -- <br>
-                            </a>
-                        </aside>
-                    <!--Sección derecha-->
-                        <article>
-                            <img src="imagen1.jpg" alt="Imagen artículo Article heading goes here" usemap="#articlemap" width="400" height="379">
-                                <map name="articlemap">
-                                    <area shape="rect" coords="700,350,700,350" alt="Imagen artículo Article heading goes here" href="https://startbootstrap.github.io/startbootstrap-modern-business/index.html">
-                                </map>
-                        </article>
-                    </section>
+                    <aside>
+                        <a href="https://startbootstrap.github.io/startbootstrap-modern-business/blog-home.html#!" News>
+                            News <br>
+                        </a>
+                        <a href="article.html" Article heading goes here> <!--Enlace a página Article--> 
+                            Article heading goes here <br>
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed libero architecto quia magni ea voluptas aspernatur! Expedita delectus ducimus explicabo ipsum necessitatibus, voluptas natus pariatur dolorum iste id maiores nesciunt!
+                        </p>
+                        <a href="read_more.html" Read more> <!--Enlace a página Article--> 
+                            Read more -- <br>
+                        </a>
+                    </aside>
+                <!--Sección derecha-->
+                    <article>
+                        <img src="imagen1.jpg" alt="Imagen artículo Article heading goes here" usemap="#articlemap" width="400" height="379">
+                            <map name="articlemap">
+                                <area shape="rect" coords="700,350,700,350" alt="Imagen artículo Article heading goes here" href="https://startbootstrap.github.io/startbootstrap-modern-business/index.html">
+                            </map>
+                    </article>
+                </section>
+            <!--Sección central-->
+            <section>
+                <!--Sección izquierda-->
+                <article>
+                    <h3>News</h3>
+                    <p>May 12,2021</p> 
+                    <a href="article1.html" Artículo 1> <!--Enlace a artículo Uno-->
+                        Enlace a artículo Uno
+                    </a>
+                    <p>May 15,2021</p> 
+                    <a href="article2.html" Artículo 2> <!--Enlace a artículo Dos--> 
+                        Enlace a artículo Dos
+                    </a>
+                    <p>May 16,2021</p> 
+                    <a href="article3.html" Artículo 3> <!--Enlace a artículo Tres--> 
+                        Enlace a artículo Tres <br>
+                    </a>
+                    <a href="">
+                        More news --> <br>
+                    </a>
+                </article>
+                <!--Sección derecha-->
+                <article>
+                    <h4>Contact</h4>
+                    <p>For press inquiries, email us at</p> 
+                    <a href="">
+                        press@domain.com <br>
+                    </a>
+                    <h4>Follow us </h4> <br>
+                    Icono de Twitter
+                    Icono de Facebook
+                    Icono de LinkedIn
+                    Icono de Youtube <br>
+                </article>
+            </section>
+            <!--Sección inferior-->
+            <section>
+                <h3> Featured Stories </h3>
+                <!--Sección izquierda-->
+                <section>
+                    <!--Sección superior-->
+                    <article>
+                        <img src="imagen2.jpg" alt="Imagen artículo Blog post title" usemap="#articlemap2" width="600" height="350">
+                            <map name="articlemap2">
+                                <area shape="rect" coords="600,350,600,350" alt="Imagen artículo Blog post title" href="https://startbootstrap.github.io/startbootstrap-modern-business/index.html">
+                            </map>
+                    </article>
+                    <!--Sección inferior-->
+                    <article>    
+                        <a href="">
+                            News <br>
+                        </a>
+                        <a href="">
+                            Blog post title <br>
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, quod tempore ea repellat ducimus eum autem sit accusantium dolorum modi eligendi, esse explicabo rerum ipsum numquam repudiandae? Eaque, praesentium eum. <br> <br>
+                        </p>
+                    </article>
+                    <article>
+                        <!--Sección izquierda-->
+                        <img src="imagen3.jpg" alt="Imagen persona">
+                        <!--Sección derecha-->
+                        <p> Nombre imagen persona </p>
+                        <p> Fecha <time>Mayo 12,2021</time>  - Tiempo de Lectura 6 min read </p> <br>
+                    </article>
+                </section>
                 <!--Sección central-->
                 <section>
-                    <!--Sección izquierda-->
+                <!--Sección superior-->
                     <article>
-                        <h3>News</h3>
-                        <p>May 12,2021</p> 
-                        <a href="article1.html" Artículo 1> <!--Enlace a artículo Uno-->
-                            Enlace a artículo Uno
-                        </a>
-                        <p>May 15,2021</p> 
-                        <a href="article2.html" Artículo 2> <!--Enlace a artículo Dos--> 
-                            Enlace a artículo Dos
-                        </a>
-                        <p>May 16,2021</p> 
-                        <a href="article3.html" Artículo 3> <!--Enlace a artículo Tres--> 
-                            Enlace a artículo Tres <br>
-                        </a>
-                        <a href="">
-                            More news --> <br>
-                        </a>
+                        <img src="imagen3.jpg" alt="Imagen artículo Blog post title" usemap="#articlemap3" width="600" height="350">
+                        <map name="articlemap3">
+                            <area shape="rect" coords="600,350,600,350" alt="Imagen artículo Another blog post title" href="https://startbootstrap.github.io/startbootstrap-modern-business/index.html">
+                        </map>    
                     </article>
-                    <!--Sección derecha-->
-                    <article>
-                        <h4>Contact</h4>
-                        <p>For press inquiries, email us at</p> 
-                        <a href="">
-                            press@domain.com <br>
-                        </a>
-                        <h4>Follow us </h4> <br>
-                        Icono de Twitter
-                        Icono de Facebook
-                        Icono de LinkedIn
-                        Icono de Youtube <br>
-                    </article>
-                </section>
                 <!--Sección inferior-->
-                <section>
-                    <h3> Featured Stories </h3>
-                    <!--Sección izquierda-->
-                    <section>
-                        <!--Sección superior-->
-                        <article>
-                            <img src="imagen2.jpg" alt="Imagen artículo Blog post title" usemap="#articlemap2" width="600" height="350">
-                                <map name="articlemap2">
-                                    <area shape="rect" coords="600,350,600,350" alt="Imagen artículo Blog post title" href="https://startbootstrap.github.io/startbootstrap-modern-business/index.html">
-                                </map>
-                        </article>
-                        <!--Sección inferior-->
-                        <article>    
-                            <a href="">
-                                News <br>
-                            </a>
-                            <a href="">
-                                Blog post title <br>
-                            </a>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, quod tempore ea repellat ducimus eum autem sit accusantium dolorum modi eligendi, esse explicabo rerum ipsum numquam repudiandae? Eaque, praesentium eum. <br> <br>
-                            </p>
-                        </article>
-                        <article>
-                            <!--Sección izquierda-->
-                            <img src="imagen3.jpg" alt="Imagen persona">
-                            <!--Sección derecha-->
-                            <p> Nombre imagen persona </p>
-                            <p> Fecha <time>Mayo 12,2021</time>  - Tiempo de Lectura 6 min read </p> <br>
-                        </article>
-                    </section>
-                    <!--Sección central-->
-                    <section>
-                    <!--Sección superior-->
-                        <article>
-                            <img src="imagen3.jpg" alt="Imagen artículo Blog post title" usemap="#articlemap3" width="600" height="350">
-                            <map name="articlemap3">
-                                <area shape="rect" coords="600,350,600,350" alt="Imagen artículo Another blog post title" href="https://startbootstrap.github.io/startbootstrap-modern-business/index.html">
-                            </map>    
-                        </article>
-                    <!--Sección inferior-->
-                        <article>
-                            <a href="">
-                                Media
-                            </a>
-                            <a href="">
-                                Another blog post title
-                            </a>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, quod tempore ea repellat ducimus eum autem sit accusantium dolorum modi eligendi, esse explicabo rerum ipsum numquam repudiandae? Eaque, praesentium eum.
-                            </p>
-                        </article>
-                        <article>    
-                            <!--Sección izquierda-->
-                            <img src="imagen3.jpg" alt="Imagen persona">
-                            <!--Sección derecha-->
-                            <p> Nombre imagen persona </p>
-                            <p> Fecha <time>Mayo 12,2021</time>  - Tiempo de Lectura 6 min read </p> <br>
-                        </article>
-                    </section>
-                    <!--Sección derecha-->
-                    <section>
-                        <!--Sección superior-->
-                        <article>
-                            <img src="imagen4.jpg" alt="Imagen artículo Last blog post title" usemap="#articlemap4" width="600" height="350">
-                            <map name="articlemap4">
-                                <area shape="rect" coords="600,350,600,350" alt="Imagen artículo Last blog post title" href="https://startbootstrap.github.io/startbootstrap-modern-business/index.html">
-                            </map>    
-                        </article>
-                        <!--Sección inferior-->
-                        <article>
-                            <a href="">
-                                News <br>
-                            </a>
-                            <a href="">
-                                The last blog post title is a little bit longer than the others. <br>
-                            </a>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, quod tempore ea repellat ducimus eum autem sit accusantium dolorum modi eligendi, esse explicabo rerum ipsum numquam repudiandae? Eaque, praesentium eum. <br><br>
-                            </p>
-                        </article>
-                        <article>    
-                            <!--Sección izquierda-->
-                            <img src="imagen3.jpg" alt="Imagen persona">
-                            <!--Sección derecha-->
-                            <p> Nombre imagen persona </p>
-                            <p> Fecha <time>Mayo 12,2021</time>  - Tiempo de Lectura 6 min read </p> <br>
-                        </article>
-                    </section>
+                    <article>
+                        <a href="">
+                            Media
+                        </a>
+                        <a href="">
+                            Another blog post title
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, quod tempore ea repellat ducimus eum autem sit accusantium dolorum modi eligendi, esse explicabo rerum ipsum numquam repudiandae? Eaque, praesentium eum.
+                        </p>
+                    </article>
+                    <article>    
+                        <!--Sección izquierda-->
+                        <img src="imagen3.jpg" alt="Imagen persona">
+                        <!--Sección derecha-->
+                        <p> Nombre imagen persona </p>
+                        <p> Fecha <time>Mayo 12,2021</time>  - Tiempo de Lectura 6 min read </p> <br>
+                    </article>
                 </section>
-                <a href="" More news>
-                    More stories -- <br><br><br>
-                </a>
-            </main>
+                <!--Sección derecha-->
+                <section>
+                    <!--Sección superior-->
+                    <article>
+                        <img src="imagen4.jpg" alt="Imagen artículo Last blog post title" usemap="#articlemap4" width="600" height="350">
+                        <map name="articlemap4">
+                            <area shape="rect" coords="600,350,600,350" alt="Imagen artículo Last blog post title" href="https://startbootstrap.github.io/startbootstrap-modern-business/index.html">
+                        </map>    
+                    </article>
+                    <!--Sección inferior-->
+                    <article>
+                        <a href="">
+                            News <br>
+                        </a>
+                        <a href="">
+                            The last blog post title is a little bit longer than the others. <br>
+                        </a>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, quod tempore ea repellat ducimus eum autem sit accusantium dolorum modi eligendi, esse explicabo rerum ipsum numquam repudiandae? Eaque, praesentium eum. <br><br>
+                        </p>
+                    </article>
+                    <article>    
+                        <!--Sección izquierda-->
+                        <img src="imagen3.jpg" alt="Imagen persona">
+                        <!--Sección derecha-->
+                        <p> Nombre imagen persona </p>
+                        <p> Fecha <time>Mayo 12,2021</time>  - Tiempo de Lectura 6 min read </p> <br>
+                    </article>
+                </section>
+            </section>
+            <a href="" More news>
+                More stories -- <br><br><br>
+            </a>
+            </div>
+        </main>
         <!--Sección inferior-->
-        <footer>
+        <footer class="footer">
+            <div class="container">
             <!--Sección izquierda-->
-                Texto de copyright "Copyright © Your Website 2021"
+            <p class="footer-text"> Copyright © Your Website 2021</p> 
             <!--Sección derecha-->
             <nav>
-                <ul>
-                    <li>
-                        <a href="">
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a class="footer-text" href="">
                             Privacy <!--Enlace a página Privacy--> 
                         </a>
+                        <span class="footer-text"> · </span>
+                        <!-- span es elemento de línea -->
                     </li>
-                    <li>
-                        <a href="">
+                    
+                    <li class="footer-item">
+                        <a class="footer-text" href="">
                             Terms <!--Enlace a página Terms--> 
                         </a>
+                        <span class="footer-text"> · </span>
                     </li>
-                    <li>
-                        <a href="">
+                    
+                    <li class="footer-item">
+                        <a class="footer-text" href="">
                             Contact <!--Enlace a página Contact--> 
                         </a>
                     </li>
                 </ul>
             </nav>
+            </div>   
         </footer>
     </div>
+    <script src="js/main.js"> </script>
 </body>
 </html>

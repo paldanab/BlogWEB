@@ -1,0 +1,62 @@
+* {
+    /* Tamaño y control de la caja: los 3 valores siguientes*/
+    margin: 0; 
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+/* Estilos a la barra de navegación*/
+.navbar-link{
+    text-decoration: none;
+    color: rgb(155, 157, 158);
+    padding: 8px;
+}
+
+.navbar-item, .footer-item {
+    list-style: none; /*quita las viñetas de los elementos de la lista*/
+}
+
+.navbar-list, .footer-list{
+    display: flex; /* pone horizontal los items de la lista*/
+}
+
+/*La pantalla tiene de ancho1140 px, pero desde donde empieza el primer título de la barra de nav 
+hasta donde termina el último titulo de la barra mide 1044, entonces 1140-1044=96 este sería el padding (margen)
+que debo dejar de cada lado para que ponga los titulos donde deden ir y no empezando en la posición 0.
+Siendo así, 96/2= 48, debo dejar 48px al lado izq y 48 al lado der (esto es lo que indico en el valor padding
+0 en vertical y 48 en las horizontales y al final queda completo los 1140*/
+.container{
+    max-width: 1140px; /*tamaño pamtalla*/
+    padding: 0 48px;
+    display: flex; 
+    justify-content: space-between; /*asi divido el primer titulo "Start bootstrap a la izq y el resto de opciones
+    justificado a la derecha*/
+    align-items: center; /*centro verticalmente*/
+    margin: 0 auto; /*0 en vertical y auto en horizontal para que centre el contenido*/
+}
+
+.navbar{
+    background-color: rgb(33, 37, 41);
+    padding: 5px 0;
+}
+
+.container>.navbar-link {
+    color: white;
+    font-size:1.25rem ;/*una cuarta parte más grande que el otro texto*/
+    padding: 5px 0;/*para que no queden alineadas las letras con las del menú izq*/
+}
+
+.footer-item span{
+    margin: 0 4px;
+}
+
+.footer-text{
+    color:#fff;
+    font-size: 0.875rem;
+}
+
+.footer{
+    background-color: rgb(33, 37, 41);
+    padding: 24px 0;
+}
